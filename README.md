@@ -43,7 +43,8 @@ pip install -r requirements.txt
 # Start the server
 python main.py
 
-###  Browser Extension
+
+Browser Extension
 1. Open **Chrome** and navigate to `chrome://extensions/`.
 2. Toggle **Developer mode** (top right) to **ON**.
 3. Click **Load unpacked**.
