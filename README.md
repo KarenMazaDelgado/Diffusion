@@ -42,9 +42,9 @@ pip install -r requirements.txt
 
 # Start the server
 python main.py
+```
 
-
-Browser Extension
+### Browser Extension
 1. Open **Chrome** and navigate to `chrome://extensions/`.
 2. Toggle **Developer mode** (top right) to **ON**.
 3. Click **Load unpacked**.
@@ -52,7 +52,7 @@ Browser Extension
 
 ---
 
-## 📈 How to Use
+### How to Use
 1. **Log in** to your University LMS (e.g., Brightspace/D2L).
 2. **Open the Browser Console** (`F12` or `Right Click` > `Inspect` > `Console`).
 3. **Navigate** to your Assignments or Syllabus page.
@@ -61,7 +61,7 @@ Browser Extension
 
 ---
 
-## ⚖️ Business Logic & Impact
+### ⚖️ Business Logic & Impact
 * **Passive Sync:** Data is gathered while the student simply browses their course, creating a "zero-effort" user experience.
 * **Panic Prevention:** By identifying `MISSING` vs `TODO` status in real-time, the system can re-prioritize a student's week before they reach a breaking point.
 * **Academic Integrity:** Diffusion replaces the need for generative cheating with a structured path to mastery by organizing the "What, When, and How" of studying.
