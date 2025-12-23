@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "NYU Assignment Scraper",
+  "version": "1.0",
+  "description": "Tests scraping data from Brightspace",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": [
+    "https://brightspace.nyu.edu/*",
+    "https://*.brightspace.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://brightspace.nyu.edu/*", "https://*.brightspace.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
