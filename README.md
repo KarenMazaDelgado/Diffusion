@@ -4,7 +4,7 @@
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 Diffusion operates as a distributed system:
 1. **Omni-Parser (Chrome Extension):** Injects into the LMS (e.g., Brightspace/D2L) to scrape data via recursive Shadow DOM traversal and event-driven monitoring.
@@ -13,7 +13,7 @@ Diffusion operates as a distributed system:
 
 ---
 
-## 🚀 Key Engineering Features
+## Key Engineering Features
 
 * **Shadow DOM Traversal:** Uses a recursive algorithm to bypass the encapsulation of modern LMS web components, ensuring 100% data coverage.
 * **Event-Driven Automation:** Implemented a `MutationObserver` with a 2000ms debounce "throttle" to monitor UI changes and sync data automatically as a student navigates courses.
@@ -23,7 +23,7 @@ Diffusion operates as a distributed system:
 
 ---
 
-## 🛠️ Setup and Installation
+## Setup and Installation
 
 ### Backend (Python/FastAPI)
 ```bash
@@ -61,12 +61,12 @@ python main.py
 
 ---
 
-### ⚖️ Business Logic & Impact
+### Business Logic & Impact
 * **Passive Sync:** Data is gathered while the student simply browses their course, creating a "zero-effort" user experience.
 * **Panic Prevention:** By identifying `MISSING` vs `TODO` status in real-time, the system can re-prioritize a student's week before they reach a breaking point.
 * **Academic Integrity:** Diffusion replaces the need for generative cheating with a structured path to mastery by organizing the "What, When, and How" of studying.
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 This project was developed as a technical proof-of-concept for educational automation. It is intended for use in compliance with university data privacy policies and terms of service.
